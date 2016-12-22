@@ -15,7 +15,7 @@ html, body {
     display: flex;
     align-items: center;
 
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
 
     font-size: 18pt;
