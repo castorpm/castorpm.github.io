@@ -1,0 +1,101 @@
+html, body {
+    height: 100%;
+    width: 100%;
+
+    margin: 0;
+
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.page {
+    height: 100%;
+    width: 100%;
+
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+    font-size: 18pt;
+}
+
+.page-container {
+    width: 60%;
+
+    margin: auto;
+
+    display: -webkit-flex;
+    -webkit-flex-direction: row;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.page-container > div {
+    width: 100%;
+    margin: auto;
+
+    text-align: center;
+
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+}
+
+.second-page-container {
+    width: 60%;
+
+    margin: auto;
+
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.button-lang {
+    margin: 10px;
+
+    border: 2px solid;
+    border-color: black;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    font-size: 18pt;
+}
+
+.langs {
+    display: -webkit-flex;
+    -webkit-flex-direction: column;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.first-page {
+    background-image: url('https://wp.valoranos.com/wp-content/uploads/2016/11/Pantalla-1-Siam-Mall_opt-1.jpg');
+}
+
+.second-page {
+    color: white;
+    background-image: url('https://wp.valoranos.com/wp-content/uploads/2016/11/Siam-Mall-3_opt-1.jpg');
+}
+
+.button-resident {
+    margin: 10px;
+
+    color: white;
+    border: 2px solid;
+    border-color: white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    font-size: 18pt;
+    text-decoration: none;
+}
+
+.hidden-page {
+    display: none;
+}
