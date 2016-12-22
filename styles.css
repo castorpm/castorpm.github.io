@@ -4,7 +4,7 @@ html, body {
 
     margin: 0;
 
-    font-family: 'Helvetica', 'Arial', sans-serif;
+    font-family: 'Raleway', sans-serif;
 }
 
 .page {
@@ -76,6 +76,7 @@ html, body {
     background-color: rgba(255, 255, 255, 0.5);
 
     font-size: 18pt;
+    font: inherit;
 }
 
 .langs {
