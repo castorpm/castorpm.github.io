@@ -11,6 +11,9 @@
     document.getElementById('button-it').addEventListener('click', function() {
         goToSecondPage('it');
     });
+    document.getElementById('button-de').addEventListener('click', function() {
+        goToSecondPage('de');
+    });
 })();
 
 function goToSecondPage(lang) {
